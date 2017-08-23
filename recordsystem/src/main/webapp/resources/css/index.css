@@ -1,0 +1,430 @@
+table a.outname {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.containercontent {
+    /* display: flex; */
+}
+
+.rightbox {
+    width: 100%;
+    padding: 1.5em;
+    float: left;
+}
+
+.rightbox_content {
+    margin-left: 170px;
+}
+
+@media (max-width: 991px) {
+    .rightbox_content {
+        margin-left: 0px;
+    }
+}
+
+.nav-pills li.actives > a, .nav-pills li.actives > a:hover, .nav-pills li.actives > a:focus {
+    background-color: #456382 !important;
+}
+
+.main-menu > li > a {
+    border: none !important;
+}
+
+.myhr {
+    margin-top: 0px;
+}
+
+.input-group-btn > .btn > i {
+    margin: 5px 6px 5px 6px;
+}
+
+a.warning {
+    background-color: #ff1300;
+}
+
+.mynavbarbox {
+    padding-right: 0px;
+    background: url("../images/nav/navBg.png");
+    background-repeat: no-repeat;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    float: left;
+    width: 170px;
+    margin-right: -100%;
+    /*position: absolute;*/
+    top: 0px;
+    bottom: 0px;
+}
+
+.mycontainer {
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    top: 64px;
+    min-height: 600px;
+}
+
+li.disable {
+    background-color: #000040;
+}
+
+.mycontainer .col-sm-10 {
+    padding-top: 20px;
+}
+
+.industry {
+    float: left;
+}
+
+.industry > label {
+    height: 20px;
+    margin-top: 12px;
+}
+
+.industry > input {
+    width: 20px;
+}
+
+ul.deviceIsVirtual {
+    vertical-align: middle;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.errorstyle {
+    position: relative;
+    float: left;
+    width: 4%;
+}
+
+.checkisrequiredstyle {
+    float: left;
+    padding-left: 10px;
+}
+
+.checkischartstyle {
+    float: left;
+    margin-right: 1%;
+    padding-left: 15px;
+}
+
+.checkischartstyle > .input-group > input {
+    width: 10px;
+}
+
+.checkischartstyle > .input-group > label {
+    line-height: 40px;
+}
+
+.checkisrequiredstyle > .input-group > input {
+    width: 10px;
+}
+
+.checkisrequiredstyle > .input-group > label {
+    line-height: 40px;
+}
+
+.labelstyle {
+    float: left;
+}
+
+.inputstyle {
+    float: left;
+    width: 12%;
+}
+
+ul.deviceIsVirtual > li {
+    display: inline-block;
+}
+
+/* td.virtual{
+	background-color: cornflowerblue !important;
+} */
+li.disable:hover {
+    margin: 0 !important;
+    background-color: #000000 !important;
+}
+
+.yun {
+    color: #54B4EB;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#temprature {
+    width: 840px;
+    height: 183px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+span.reload {
+    color: rgb(249, 255, 0);
+}
+
+span.warning {
+    color: red;
+}
+
+div#changetomap {
+    font-size: 12px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+}
+
+td.devicenosensor {
+    color: red;
+}
+
+.warning_footer {
+    padding: 0px;
+}
+
+.congratuation {
+    height: 72px;
+    text-align: left;
+    line-height: 72px;
+    vertical-align: middle;
+    font-size: 30px;
+    position: relative;
+}
+
+.waringtable {
+    width: 100%;
+}
+
+.waringtable td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+}
+
+.test {
+    margin-top: 35px;
+}
+
+.navbar-brand {
+    width: auto;
+}
+
+.navbar-brand img.logo-sluan {
+    width: auto;
+}
+
+.dropdown-menu-w120 {
+    min-width: 120px;
+}
+
+/********  Login Form Start  ********/
+.has-feedback .input-group-lg .form-control-feedback {
+    top: 7px;
+}
+
+.form-group .input-group-lg .img-validate-code {
+    height: 45px;
+    width: 100px;
+}
+
+.form-group .validate-code {
+    text-align: left;
+}
+
+.form-group .forget-password {
+    margin: 0 20px;
+}
+
+/********  Login Form End  ********/
+
+/********  Register Form Start  ********/
+.form-group .alert-needs {
+    margin-bottom: 0px;
+    padding: 12px;
+    text-align: left;
+}
+
+/********  Register Form End  ********/
+
+/********  Password Form Start  ********/
+.form-group .restrict-label {
+    margin: 4px 0;
+    text-align: left;
+}
+
+/********  Register Form End  ********/
+
+/********  Table Start  ********/
+.table {
+    margin-bottom: 0px;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.indexsearchtable > tbody > tr > td {
+    vertical-align: middle;
+    white-space: pre-wrap;
+}
+
+.dataTables_wrapper .dataTables_length {
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_length > label > select {
+    font-size: 100%;
+    padding: 3px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    white-space: nowrap;
+}
+
+.table-content {
+    overflow: auto;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.table-btngroup-content {
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.dataTables_wrapper .pagination {
+    margin: 10px 0;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.w45 {
+    width: 45px;
+}
+
+.w90 {
+    width: 90px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w270 {
+    width: 270px;
+}
+
+.light-green {
+    color: #0F0;
+}
+
+.center {
+    text-align: center;
+}
+
+label.error {
+    background: url("../img/unchecked.gif") no-repeat 0px center;
+    padding-left: 16px;
+    color: #b94a48;
+}
+
+label.valid {
+    background: url("../img/checked.gif") no-repeat 0px center;
+    padding-left: 16px;
+    color: blue;
+}
+
+.input-daterange .input-group-addon {
+    width: auto;
+    min-width: 16px;
+    padding: 6px 12px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    vertical-align: middle;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    border-width: 1px 0;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.input-daterange input {
+    text-align: left;
+}
+
+.input-daterange .input-group-addon:last-child {
+    border-width: 1px;
+    border-left: 0;
+}
+
+table.table thead .sorting_asc, table.table thead .sorting_desc, table.table thead .sorting {
+    cursor: pointer;
+    *cursor: hand;
+}
+
+table.table thead .sorting {
+    background: url("../img/table/sort_both.png") no-repeat center right;
+}
+
+table.table thead .sorting_asc {
+    background: url("../img/table/sort_asc.png") no-repeat center right;
+}
+
+table.table thead .sorting_desc {
+    background: url("../img/table/sort_desc.png") no-repeat center right;
+}
+
+table.table thead .sorting_asc_disabled {
+    background: url("../img/table/sort_asc_disabled.png") no-repeat center right;
+}
+
+table.table thead .sorting_desc_disabled {
+    background: url("../img/table/sort_desc_disabled.png") no-repeat center right;
+}
+
+.navbar-form.navbar-left:first-child {
+    margin-left: -15px;
+}
+
+.navbar-inner {
+    height: 100%;
+    min-height: 60px;
+}
+
+.btn-file, .batch-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file], .batch-btn input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.marginB20 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+.addFieldSelect {
+    height: 300px !important;
+}
+
+.addFieldColumn {
+    height: 300px;
+}
+.commonWidthButton{
+    width:55%;
+    margin-bottom: 5px;
+}

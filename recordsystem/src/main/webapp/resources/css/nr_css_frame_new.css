@@ -1,0 +1,1455 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+  background-color:#606060;
+  background-image: none;
+}
+#nr_width_control{
+  width:100%;
+  overflow:hidden;
+  min-width:1000px;
+  max-width:2000px;
+  margin:0 auto;
+  position:relative;
+}
+/* #nr_head */
+#nr_hd{
+  position:relative;
+  z-index:9999;
+}
+/* nr_body */
+#nr_body{
+  background-color:#fff;
+  overflow:hidden;
+  width:100%;
+  min-height:500px;
+  padding-bottom:50px;
+  position:relative;
+  z-index:99;
+}
+.nr_fixed_width{
+  width:1000px;
+  margin:0 auto;
+  position:relative;
+}
+.nr_fluid_width{
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+  zoom:1;
+  position:relative;
+}
+.nr_content{
+  width:1000px;
+  margin:0 auto;
+}
+
+
+/* nr_top */
+#nr_top{
+  width:1000px;
+  padding:0 500px;
+  margin:0 -500px;
+  background-color:#606060;
+  height:30px;
+  color:#f5f5f5;
+  position:relative;
+  z-index:10000;
+}
+#nr_top a{
+  color:#f5f5f5;
+}
+#nr_top a:hover{
+  color:#f5f5f5;
+}
+#nr_top .nr_t_l_link a,
+#nr_top .nr_t_r_link a{color:#fff; font-weight:bold;}
+#nr_top sup{
+  vertical-align:top;
+  line-height:0;
+}
+#nr_top .r{
+  float:right;
+  display:inline;
+  height:30px;
+}
+#nr_top ul.links{
+  height:30px;
+  float:left;
+  display:inline;
+  padding:0;
+  margin:0;
+}
+#nr_top ul.links li{
+  height:30px;
+  float:left;
+  display:inline;
+  position:relative;
+  background-image:url(http://www.haier.com/cn/images/nr_top_divider.gif);
+  background-position:right center;
+  background-repeat:no-repeat;
+  margin-left:-1px;
+  white-space:nowrap;
+}
+#nr_top ul.links li a{
+  height:18px;
+  margin:6px 10px;
+  float:left;
+  display:inline;
+  padding-left:20px;
+  line-height:18px;
+  font-size:12px;
+}
+#nr_top ul.links li a:hover{
+}
+#nr_top ul.links li a.i_store,
+#nr_top ul.links li a.i_bbs,
+#nr_top ul.links li a.i_dream{
+  background-image:url(http://www.haier.com/cn/images/nr_icons_top.gif);
+  background-repeat:no-repeat;
+  background-position:0 0;
+}
+#nr_top ul.links li a.i_store{
+  /*background-position:0 -0px;*/
+  background-position:0 -20px;
+}
+#nr_top ul.links li a.i_store:hover{
+  background-position:0 -20px;
+}
+#nr_top ul.links li a.i_bbs{
+  /*background-position:0 -40px;*/
+  background-position:0 -60px;
+}
+#nr_top ul.links li a.i_bbs:hover{
+  background-position:0 -60px;
+}
+#nr_top ul.links li a.i_dream{
+	display:inline; float:left; margin-right:0;
+  /*background-position:0 -80px;*/
+  background-position:0 -100px;
+}
+#nr_top ul.links li a.i_dream:hover{
+  background-position:0 -100px;
+}
+#nr_top ul.links li .tag_sup{float:left; line-height:10px; margin:5px 10px 0 0;}
+#nr_top ul.links li#nr_top_links_dream{
+  width:104px;
+}
+#nr_top ul.links li#nr_top_links_dream a.a_lv1{
+}
+#nr_top ul.links li#nr_top_links_dream.hover,
+#nr_top ul.links li#nr_top_links_dream:hover{
+  background-image:url(http://www.haier.com/cn/images/nr_top_user_btn_hover.gif);
+  background-position:0 4px;
+}
+#nr_top ul.links li#nr_top_links_dream.hover a.a_lv1,
+#nr_top ul.links li#nr_top_links_dream:hover a.a_lv1{
+  color:#6d6e71;
+  background-position:-20px 0;
+}
+#nr_top ul.links li#nr_top_links_dream.hover .pop_lv2,
+#nr_top ul.links li#nr_top_links_dream:hover .pop_lv2{
+  display:block;
+}
+
+#nr_top ul.links .pop_lv2{
+  width:260px;
+  display:none;
+  position:absolute;
+  right:0;
+  top:30px;
+  background-color:#fafafa;
+  overflow:hidden;
+  margin:0;
+  -webkit-border-radius: 6px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius: 6px;
+  -moz-border-radius-topright: 0;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  display:none;
+  zoom:1;
+  padding:10px 10px;
+}
+/*
+#nr_top ul.links .pop_lv2 ul{
+  overflow:hidden;
+  padding:0;
+  margin:0;
+  position:relative;
+  zoom:1;
+}
+
+#nr_top ul.links .pop_lv2 ul li{
+  float:left;
+  display:inline;
+  border-left:solid 1px #dcdcdc;
+  background-image:none;
+  margin-left:-1px;
+}
+#nr_top ul.links .pop_lv2 ul li a{
+  height:20px;
+  padding:0;
+  margin:0;
+  float:left;
+  display:inline;
+  text-align:center;
+  color:#606060;
+}
+#nr_top ul.links .pop_lv2 ul li a:hover{
+  color:#005aaa;
+}
+*/
+
+#nr_top ul.links .pop_lv2 ul{
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  position:relative;
+}
+#nr_top ul.links li#nr_top_links_dream .pop_lv2 ul li{
+  float:left;
+  display:inline;
+  margin-left:-1px;
+  background-image:url(http://www.haier.com/cn/images/nr_top_divider.gif);
+  background-position:0 center;
+  background-repeat:no-repeat;
+}
+#nr_top ul.links li#nr_top_links_dream .pop_lv2 ul li a{
+  float:left;
+  display:inline;
+  background:none;
+  color:#606060;
+  padding:0;
+}
+#nr_top ul.links li#nr_top_links_dream .pop_lv2 ul li a:hover{
+  color:#005aaa;
+}
+#nr_top ul.links li a:hover .no_udline{text-decoration:none;}
+
+
+
+
+#nr_top .userinfo{
+  padding:0;
+  margin:0;
+  float:left;
+  display:inline;
+  height:30px;
+  margin-left:10px;
+}
+#nr_top ul.userinfo li{
+  height:30px;
+  float:left;
+  display:inline;
+  position:relative;
+  background-image:url(http://www.haier.com/cn/images/nr_top_userinfo_btn_hover.gif);
+  background-position:0 -60px;
+  background-repeat:no-repeat;
+  padding-left:5px;
+  font-size:12px;
+}
+#nr_top ul.userinfo li a{
+  height:18px;
+  padding:6px 10px 6px 5px;
+  float:left;
+  display:inline;
+  line-height:18px;
+  background-image:url(http://www.haier.com/cn/images/nr_top_userinfo_btn_hover.gif);
+  background-position:0 -60px;
+  background-repeat:no-repeat;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_user.hover,
+#nr_top ul.userinfo li#nr_top_userinfo_user:hover,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier.hover,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier:hover{
+  background-position:0 0;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_user.hover a,
+#nr_top ul.userinfo li#nr_top_userinfo_user:hover a,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier.hover a,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier:hover a{
+  background-position:right -30px;
+  color:#6d6e71;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_user.hover .pop_lv2,
+#nr_top ul.userinfo li#nr_top_userinfo_user:hover .pop_lv2,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier.hover .pop_lv2,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier:hover .pop_lv2{
+  display:block;
+}
+
+#nr_top ul.userinfo .pop_lv2{
+  display:none;
+  position:absolute;
+  right:0;
+  top:30px;
+  overflow:hidden;
+  background:url(http://www.haier.com/cn/images/nr_top_nav_popbg.png) left top no-repeat;
+  margin:0;
+  display:none;
+  zoom:1;
+  padding:0 0 0 10px;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_user .pop_lv2{
+  width:127px;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier .pop_lv2{
+  width:380px;
+}
+#nr_top ul.userinfo li .pop_lv2 ul{
+  background:url(http://www.haier.com/cn/images/nr_top_nav_popbg.png) right bottom no-repeat;
+  padding:10px 0 10px 0;
+  margin:0;
+  overflow:hidden;
+  position:relative;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_user .pop_lv2 ul li,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier .pop_lv2 ul li{
+  float:left;
+  display:inline;
+  background-image:url(http://www.haier.com/cn/images/nr_top_divider.gif);
+  background-position:right center;
+  background-repeat:no-repeat;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier .pop_lv2 ul{padding-left:15px;}
+#nr_top ul.userinfo li#nr_top_userinfo_user .pop_lv2 ul{padding-left:4px;}
+#nr_top ul.userinfo li#nr_top_userinfo_user .pop_lv2 ul li a,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier .pop_lv2 ul li a{
+  float:left;
+  display:inline;
+  background:none;
+  color:#606060;
+}
+#nr_top ul.userinfo li#nr_top_userinfo_user .pop_lv2 ul li a:hover,
+#nr_top ul.userinfo li#nr_top_userinfo_my_haier .pop_lv2 ul li a:hover{
+  color:#005aaa;
+}
+#nr_top .userinfo a:hover{
+}
+/* nr_header */
+#nr_header{
+  background-image:url(http://www.haier.com/cn/images/nr_header_bt_line.png);
+  background-repeat:repeat-x;
+  background-position:0 bottom;
+  height:75px;
+  padding:0 500px;
+  margin:0 -500px;
+  position:relative;
+  background-color:#fff;
+}
+#nr_header .logo{
+  float:left;
+  display:inline;
+}
+#nr_header .search{
+  float:right;
+  display:inline;
+  position:relative;
+  margin-top:24px;
+}
+#nr_header .search form{
+}
+#nr_header .search .fe_keywords{
+  background-image:url(http://www.haier.com/cn/images/nr_hd_search_input.png);
+  width:184px;
+  height:28px;
+  padding:0 10px;
+  margin:0;
+  background-repeat:no-repeat;
+  background-position:0 0;
+  border:0 none;
+  float:left;
+  display:inline;
+  line-height:28px;
+  font-size:12px;
+}
+#nr_header .search .fe_keywords_label{
+  position:absolute;
+  left:0;
+  top:0;
+  height:28px;
+  line-height:28px;
+  color:#909090;
+  padding:0;
+  margin:0;
+  padding-left:10px;
+  font-size:12px;
+}
+#nr_header .search .fe_btn_search{
+  padding:0;
+  margin:0;
+  border:0 none;
+  border-radius:0;
+  width:31px;
+  height:28px;
+  float:left;
+  display:inline;
+}
+/* nr_tmn */
+#nr_tmn{
+  height:53px;
+  margin-top:-53px;
+  position:relative;
+  z-index:9999;
+  margin-left:185px;
+  width:580px;
+}
+#nr_tmn a{
+  color:#303030;
+}
+#nr_tmn a:hover{
+  color:#005aab;
+  text-decoration:none;
+}
+#nr_tmn .ul_lv1{
+  height:53px;
+  margin:0;
+  padding:0;
+}
+#nr_tmn .li_lv1{
+  background-image:url(http://www.haier.com/cn/images/nr_tmn_lv1_divider.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  margin-left:-1px;
+  height:53px;
+  float:left;
+  display:inline;
+}
+#nr_tmn .li_lv1_first{
+  background-image:none;
+}
+#nr_tmn .a_lv1{
+  float:left;
+  display:inline;
+  height:30px;
+  padding:0 18px 23px;
+  font-size:14px;
+  color:#606060;
+  line-height:30px;
+  overflow:hidden;
+  position:relative;
+  font-weight:700;
+}
+#nr_tmn .ul_lv1 .active .a_lv1,
+#nr_tmn .ul_lv1 .hover .a_lv1,
+#nr_tmn .li_lv1:hover .a_lv1,
+#nr_tmn .a_lv1:hover{
+  color:#005aab;
+  text-decoration:none;
+}
+#nr_tmn .ll_lv1{
+  height:5px;
+  overflow:hidden;
+  position:absolute;
+  width:150px;
+  left:50%;
+  margin-left:-75px;
+  top:48px;
+}
+#nr_tmn .ll_lv1 em{
+  width:0px;
+  height:5px;
+  background-color:#005aab;
+  margin:0 auto;
+  overflow:hidden;
+  transition:width 0.2s ease;
+  display:block;
+}
+#nr_tmn .li_lv1:hover .ll_lv1 em,
+#nr_tmn .ul_lv1 .hover .ll_lv1 em,
+#nr_tmn .ul_lv1 .active .ll_lv1 em{
+	width:150px;
+}
+#nr_tmn .li_lv1:hover .div_lv2,
+#nr_tmn .ul_lv1 .hover .div_lv2{
+  display:block;
+}
+#nr_tmn .div_lv2{
+  display:none;
+  position:absolute;
+  left:50%;
+  margin-left:-950px;
+  width:1000px;
+  padding:15px 500px;
+  background:url(http://www.haier.com/cn/images/nr_header_btm_bg.png) left bottom repeat-x;
+  top:53px;
+}
+
+
+
+/* tmn_lv2_home */
+#nr_tmn #tmn_lv2_home{
+  /* display:block; */
+}
+#tmn_lv2_home{
+}
+#tmn_lv2_home .scroll_box{
+  overflow:hidden;
+  width:1000px;
+  position:relative;
+  zoom:1;
+  height:275px;
+}
+#tmn_lv2_home .col{
+  float:left;
+  display:inline;
+  width:85px;
+  height:275px;
+  overflow:hidden;
+  padding:0 20px;
+  border-left:solid 1px #e8e8e8;
+  margin-left:-1px;
+}
+#tmn_lv2_home .col .thumb{
+  width:80px;
+  height:80px;
+  margin:0 auto;
+  margin-bottom:15px;
+  overflow:hidden;
+  position:relative;
+}
+#tmn_lv2_home .col .thumb ul{
+  position:relative;
+  transition:left 0.3s ease;
+  width:900px;
+  height:80px;
+}
+#tmn_lv2_home .col .thumb ul li{
+  width:80px;
+  height:80px;
+  overflow:hidden;
+  float:left;
+  display:inline;
+}
+#tmn_lv2_home .col .thumb ul li a{
+  width:80px;
+  height:80px;
+  overflow:hidden;
+  float:left;
+  display:inline;
+}
+#tmn_lv2_home .col h2{
+  font-size:12px;
+  color:#303030;
+  font-weight:700;
+  line-height:22px;
+  padding:0;
+  margin:0;
+}
+#tmn_lv2_home .col h2 a{
+  color:#303030;
+  white-space:nowrap;
+}
+#tmn_lv2_home .col h2 a:hover{
+  color:#005aab;
+}
+#tmn_lv2_home .col ul.list{
+}
+#tmn_lv2_home .col ul.list li{
+  position:relative;
+  font-size:12px;
+}
+#tmn_lv2_home .col ul.list li a{
+  color:#606060;
+  line-height:22px;
+}
+#tmn_lv2_home .col ul.list li a:hover{
+  color:#005aab;
+}
+/* tmn_lv2_biz */
+#nr_tmn #tmn_lv2_biz{
+  /* display:block; */
+}
+#tmn_lv2_biz{
+}
+#tmn_lv2_biz .scroll_box{
+  overflow:hidden;
+  width:1000px;
+  position:relative;
+  zoom:1;
+}
+#tmn_lv2_biz .col{
+  float:left;
+  display:inline;
+  height:273px;
+  overflow:hidden;
+  padding:0 15px;
+  border-left:solid 1px #e8e8e8;
+  margin-left:-1px;
+  min-width:75px;
+  _width:75px;
+  _overflow:visible;
+  position:relative;
+}
+#tmn_lv2_biz .col .thumb{
+  width:80px;
+  height:80px;
+  position:absolute;
+  left:50%;
+  top:0;
+  margin-left:-40px;
+  overflow:hidden;
+}
+#tmn_lv2_biz .col .thumb ul{
+  position:relative;
+  transition:left 0.3s ease;
+  width:900px;
+  height:80px;
+}
+#tmn_lv2_biz .col .thumb ul li{
+  width:80px;
+  height:80px;
+  overflow:hidden;
+  float:left;
+  display:inline;
+}
+#tmn_lv2_biz .col .thumb ul li a{
+  width:80px;
+  height:80px;
+  overflow:hidden;
+  float:left;
+  display:inline;
+}
+#tmn_lv2_biz .col h2{
+  font-size:12px;
+  color:#303030;
+  font-weight:700;
+  line-height:22px;
+  padding:0;
+  margin:0;
+  margin-top:95px;
+  white-space:normal;
+  white-space:nowrap;
+}
+#tmn_lv2_biz .col h2 a{
+  color:#303030;
+}
+#tmn_lv2_biz .col h2 a:hover{
+  color:#005aab;
+}
+#tmn_lv2_biz .col ul.list{
+  zoom:1;
+  position:relative;
+  float:left;
+  display:inline;
+  font-size:12px;
+}
+#tmn_lv2_biz .col ul.list li{
+  white-space:nowrap;
+}
+#tmn_lv2_biz .col ul.list li a{
+  color:#606060;
+  line-height:22px;
+}
+#tmn_lv2_biz .col ul.list li a:hover{
+  color:#005aab;
+}
+/* tmn_lv2_creative */
+#nr_tmn #tmn_lv2_creative{
+  /* display:block; */
+}
+#tmn_lv2_creative{
+}
+#tmn_lv2_creative h2{
+  font-size:14px;
+  color:#303030;
+  font-weight:700;
+  padding-bottom:15px;
+}
+#tmn_lv2_creative h2 a{
+  color:#303030;
+}
+#tmn_lv2_creative h2 a:hover{
+  color:#005aab;
+}
+#tmn_lv2_creative .l{
+  float:left;
+  display:inline;
+  border-right:solid 1px #e9e9e9;
+  padding-right:30px;
+  width:480px;
+}
+#tmn_lv2_creative .r{
+  float:left;
+  display:inline;
+  padding-left:50px;
+  zoom:1;
+  width:240px;
+}
+#tmn_lv2_creative ul{
+  overflow:hidden;
+}
+#tmn_lv2_creative ul li{
+  float:left;
+  display:inline;
+  width:120px;
+  position:relative;
+  font-size:12px;
+}
+#tmn_lv2_creative ul li a{
+  float:left;
+  display:inline;
+  width:120px;
+  padding-top:95px;
+  text-align:center;
+  color:#303030;
+}
+#tmn_lv2_creative ul li a:hover{
+  color:#005aab;
+}
+#tmn_lv2_creative ul li a img{
+  position:absolute;
+  width:90px;
+  height:90px;
+  left:50%;
+  margin-left:-45px;
+  top:0;
+}
+/* tmn_lv2_service */
+#nr_tmn #tmn_lv2_service{
+  /* display:block; */
+}
+#tmn_lv2_service{
+}
+#tmn_lv2_service h2{
+  font-size:14px;
+  color:#303030;
+  font-weight:700;
+  padding-bottom:15px;
+}
+#tmn_lv2_service .l{
+  float:left;
+  display:inline;
+  padding-right:35px;
+  border-right:solid 1px #e9e9e9;
+  min-height:210px;
+}
+#tmn_lv2_service .l .col_box{
+  overflow:hidden;
+}
+#tmn_lv2_service .l .col_box ul{
+  float:left;
+  display:inline;
+  width:100px;
+}
+#tmn_lv2_service .l .col_box ul li{
+  padding:6px 0;
+  float:left;
+  display:inline;
+  width:100px;
+  position:relative;
+  overflow:hidden;
+}
+#tmn_lv2_service .l .col_box ul li a{
+  float:left;
+  display:inline;
+  width:100px;
+  position:relative;
+  color:#303030;
+}
+#tmn_lv2_service .l .col_box ul li a:hover{
+  color:#005aab;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_fr{
+  background-position:0 -0px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_fr:hover{
+  background-position:0 -30px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_wm{
+  background-position:0 -60px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_wm:hover{
+  background-position:0 -90px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_ac{
+  background-position:0 -120px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_ac:hover{
+  background-position:0 -150px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_tv{
+  background-position:0 -180px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_tv:hover{
+  background-position:0 -210px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_he{
+  background-position:0 -240px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_he:hover{
+  background-position:0 -270px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_ke{
+  background-position:0 -300px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_ke:hover{
+  background-position:0 -330px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_wh{
+  background-position:0 -360px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_wh:hover{
+  background-position:0 -390px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_dg{
+  background-position:0 -420px;
+}
+#tmn_lv2_service .l .col_box ul li a.i_cat_dg:hover{
+  background-position:0 -450px;
+}
+#tmn_lv2_service .r{
+  float:left;
+  display:inline;
+  padding-left:19px;
+  overflow:hidden;
+  width:745px;
+}
+#tmn_lv2_service .r h2{
+  padding-bottom:23px;
+}
+#tmn_lv2_service .r ul.pic_list{
+  padding-bottom:0;
+  overflow:hidden;
+  width:765px;
+  margin-bottom:20px;
+}
+#tmn_lv2_service .r ul.pic_list li{
+  float:left;
+  display:inline;
+  width:235px;
+  height:118px;
+  overflow:hidden;
+  margin-right:20px;
+  position:relative;
+}
+#tmn_lv2_service .r ul.pic_list li a{
+  width:235px;
+  height:118px;
+  overflow:hidden;
+  display:block;
+  color:#303030;
+}
+#tmn_lv2_service .r ul.pic_list li a:hover{
+  color:#005aab;
+}
+#tmn_lv2_service .r ul.pic_list li a span{
+  background-image:url(http://www.haier.com/cn/images/nr_tmn_lv2_service_pic_tit_bg.png);
+  _background-image:url(http://www.haier.com/cn/images/nr_tmn_lv2_service_pic_tit_bg@ie6.png);
+  background-repeat:no-repeat;
+  height:26px;
+  width:162px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  _bottom:-1px;
+  line-height:26px;
+  font-size:14px;
+  font-weight:700;
+  text-indent:10px;
+  color:#fff;
+  display:block;
+}
+#tmn_lv2_service .r ul.pic_list li a:hover span{
+  background-position:0 -30px;
+}
+#tmn_lv2_service .r ul.pic_list li .tit a{
+  color:#fff;
+}
+#tmn_lv2_service .r ul.txt_list{
+  overflow:hidden;
+}
+#tmn_lv2_service .r ul.txt_list li{
+  float:left;
+  display:inline;
+}
+#tmn_lv2_service .r ul.txt_list li a{
+  background-image:url(http://www.haier.com/cn/images/nr_tmn_lv2_service_type_icons.png);
+  background-repeat:no-repeat;
+  padding-left:40px;
+  height:32px;
+  line-height:32px;
+  float:left;
+  display:inline;
+  margin-right:25px;
+}
+#tmn_lv2_service .r ul.txt_list li a:hover{
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_st{
+  background-position:0 6px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_st:hover{
+  background-position:0 6px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_pr{
+  background-position:0 -34px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_pr:hover{
+  background-position:0 -34px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_bl{
+  background-position:0 -74px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_bl:hover{
+  background-position:0 -74px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_hs{
+  background-position:0 -114px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_hs:hover{
+  background-position:0 -114px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_wl{
+  background-position:0 -154px;
+}
+#tmn_lv2_service .r ul.txt_list li a.i_tp_wl:hover{
+  background-position:0 -154px;
+}
+
+
+
+
+
+
+
+
+/* abrn_pink_h36 */
+.abtn_pink_h36 {
+  display:inline-block;
+  height:36px;
+  background-image:url(http://www.haier.com/cn/images/nr_abtn_pink_h36.png);
+  background-repeat:no-repeat;
+  padding-left:12px;
+  background-position:left top;
+  color:#fff;
+}
+.abtn_pink_h36 span {
+  display:inline-block;
+  height:36px;
+  line-height:32px;
+  background-image:url(http://www.haier.com/cn/images/nr_abtn_pink_h36.png);
+  background-repeat:no-repeat;
+  padding-right:16px;
+  background-position:right -50px;
+  color:#fff;
+  font-size:14px;
+  padding-left:4px;
+  font-weight:700;
+  cursor:pointer;
+}
+.abtn_pink_h36 span em {
+  display:inline-block;
+  height:36px;
+  line-height:32px;
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  cursor:pointer;
+}
+.abtn_pink_h36:hover {
+  background-position:left -100px;
+}
+.abtn_pink_h36:hover span {
+  background-position:right -150px;
+}
+.abtn_pink_h36 i {
+  background-repeat:no-repeat;
+  background-position:0 0;
+  font-style:normal;
+  height:32px;
+  display:inline-block;
+}
+.abtn_pink_h36 i.arrow_right {
+  padding-left:14px;
+  background-image:url(http://www.haier.com/cn/images/nr_icon_h32_arrow_right.png);
+}
+.abtn_pink_h36 i.plus {
+  padding-left:14px;
+  background-image:url(http://www.haier.com/cn/images/nr_icon_h32_plus.png);
+}
+
+.pre_load_bg_img{
+  width:0;
+  height:0;
+  overflow:hidden;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+
+
+
+
+/* nr_footer */
+#nr_footer{
+  padding:30px 500px 0;
+  margin:0 -500px;
+  color:#b5b5b7;
+  overflow:hidden;
+  width:1000px;
+  font-size:12px;
+}
+#nr_footer a{
+  color:#b5b5b7;
+}
+#nr_footer a:hover{
+  color:#fff;
+}
+#nr_footer h2{
+  color:#d9d9d9;
+  font-size:16px;
+  font-weight:700;
+}
+#nr_footer .l{
+  background-image:url(http://www.haier.com/cn/images/nr_footer_divider.png);
+  background-position:right 0;
+  background-repeat:no-repeat;
+  min-height:234px;
+  height:234px;
+  float:left;
+  display:inline;
+  width:235px;
+  overflow:hidden;
+}
+#nr_footer .r{
+  float:left;
+  display:inline;
+  width:235px;
+  padding-left:20px;
+  height:253px;
+  overflow:hidden;
+  background-image: url(http://www.haier.com/cn/images/nr_footer_divider.png);
+  background-position: left 0;
+  background-repeat: no-repeat;
+  font-size:12px;
+}
+#nr_footer .lang_select{
+  margin-bottom:25px;
+  overflow:hidden;
+  height:52px;
+}
+#nr_footer .lang_select .change_lang{
+  overflow:hidden;
+}
+#nr_footer .lang_select .change_lang .tit{
+  float:left;
+  display:inline;
+}
+#nr_footer .lang_select .change_lang .lang{
+  float:left;
+  display:inline;
+  padding-left:15px;
+}
+#nr_footer .lang_select .change_lang .lang a{
+  padding-left:22px;
+  background-repeat:no-repeat;
+  background-position:0 center;
+  color:#40c8f4;
+}
+#nr_footer .lang_select .change_lang .lang a.flag_zhcn{
+  background-image:url(http://www.haier.com/cn/images/nr_flag_zhcn.png);
+}
+#nr_footer .interactive{
+  overflow:hidden;
+}
+#nr_footer .interactive ul{
+  overflow:hidden;
+}
+#nr_footer .interactive ul li{
+  margin-right:15px;
+  font-size:12px;
+}
+#nr_footer .interactive ul li a{
+  overflow:hidden;
+}
+#nr_footer .interactive ul li a:hover{
+}
+#nr_footer .search{
+}
+#nr_footer .search .s_box{
+  overflow:hidden;
+  position:relative;
+  zoom:1;
+}
+#nr_footer .search .s_box .fe_bt_keywords{
+  background-image:url(http://www.haier.com/cn/images/nr_footer_search_input.png);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  width:191px;
+  height:28px;
+  margin:0;
+  padding:0 7px;
+  border:0 none;
+  border-radius:0;
+  line-height:28px;
+  overflow:hidden;
+  color:#fff;
+  float:left;
+  display:inline;
+  font-size:12px;
+}
+#nr_footer .search .s_box .fe_bt_keywords_label{
+  position:absolute;
+  left:0;
+  top:0;
+  height:28px;
+  line-height:28px;
+  padding:0 7px;
+  color:#fff;
+  font-size:12px;
+}
+#nr_footer .search .s_box .fe_bt_submit{
+  float:left;
+  display:inline;
+  width:30px;
+  height:28px;
+  padding:0;
+  margin:0;
+  border:0 none;
+  border-radius:0;
+}
+#nr_footer .search{
+}
+
+#nr_footer .c1{
+  width:150px;
+  float:left;
+  display:inline;
+  margin-left:20px;
+  margin-right:20px;
+}
+#nr_footer .c2{
+  width:150px;
+  float:left;
+  display:inline;
+  margin-right:20px;
+}
+#nr_footer .c3{
+  width:150px;
+  float:left;
+  display:inline;
+}
+
+
+
+
+
+#nr_footer .r ul.txt_list{
+  overflow:hidden;
+  margin-left:-10px;
+  margin-bottom:30px;
+  zoom:1;
+  position:relative;
+  padding-bottom:0;
+  height:18px;
+}
+#nr_footer .r ul.txt_list li{
+  float:left;
+  display:inline;
+  background-image:url(http://www.haier.com/cn/images/nr_top_divider.gif);
+  background-repeat:no-repeat;
+  background-position:0 center;
+  margin-left:-1px;
+  padding:0 10px;
+  position:relative;
+}
+#nr_footer .r ul.txt_list li a{
+  float:left;
+  display:inline;
+}
+#nr_footer .r ul.txt_list li a:hover{
+}
+#nr_footer .r ul.cat_list{
+  overflow:hidden;
+  margin-bottom:30px;
+  height:25px;
+  overflow:hidden;
+  position:relative;
+  display:block;
+  zoom:1;
+  padding-bottom:0;
+}
+#nr_footer .r ul.cat_list li{
+  margin-right:15px;
+  float:left;
+  display:inline;
+}
+#nr_footer .r ul.cat_list li a{
+  background-image:url(http://www.haier.com/cn/images/nr_icon_footer_cat.png);
+  background-repeat:no-repeat;
+  height:25px;
+  line-height:25px;
+  padding-left:30px;
+  float:left;
+  display:inline;
+}
+#nr_footer .r ul.cat_list li a:hover{
+}
+#nr_footer .r ul.cat_list li a.i_cat_fr{
+  background-position:0 -0px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_fr:hover{
+  background-position:0 -30px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_wm{
+  background-position:0 -60px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_wm:hover{
+  background-position:0 -90px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_ac{
+  background-position:0 -120px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_ac:hover{
+  background-position:0 -150px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_wh{
+  background-position:0 -180px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_wh:hover{
+  background-position:0 -210px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_tv{
+  background-position:0 -240px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_tv:hover{
+  background-position:0 -270px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_ke{
+  background-position:0 -300px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_ke:hover{
+  background-position:0 -330px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_dg{
+  background-position:0 -360px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_dg:hover{
+  background-position:0 -390px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_le{
+  background-position:0 -420px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_le:hover{
+  background-position:0 -450px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_mb{
+  background-position:0 -480px;
+}
+#nr_footer .r ul.cat_list li a.i_cat_mb:hover{
+  background-position:0 -510px;
+}
+#nr_footer .b{
+  clear:both;
+  border-top:solid 1px #909090;
+  padding-top:10px;
+  float:left;
+  display:inline;
+  width:1000px;
+  overflow:hidden;
+}
+#nr_footer .b .bl{
+  float:left;
+  display:inline;
+}
+#nr_footer .b .bl ul{
+  float:left;
+  display:inline;
+}
+#nr_footer .b .br{
+  float:right;
+  display:inline;
+}
+#nr_footer .b .br ul{
+  float:right;
+  display:inline;
+}
+#nr_footer .b ul.txt_list{
+  overflow:hidden;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-bottom:20px;
+  zoom:1;
+  position:relative;
+  padding-bottom:0;
+  height:18px;
+  display:block;
+}
+#nr_footer .b ul.txt_list li{
+  float:left;
+  display:inline;
+  background-image:url(http://www.haier.com/cn/images/nr_top_divider.gif);
+  background-repeat:no-repeat;
+  background-position:0 center;
+  margin-left:-1px;
+  padding:0 10px;
+  position:relative;
+  font-size:12px;
+}
+#nr_footer .b ul.txt_list li a{
+  float:left;
+  display:inline;
+}
+#nr_footer .b ul.txt_list li a:hover{
+}
+/* nr_footer */
+#nr_footer_mini{
+  color: #b5b5b7;
+	font-size: 12px;
+  width:1000px;
+  padding:0 1000px;
+  margin:0 -1000px;
+  background-color:#606060;
+}
+#nr_footer_mini a{
+  color: #b5b5b7;
+}
+#nr_footer_mini a:hover{
+  color: #fff;
+}
+#nr_footer_mini .b{
+  clear:both;
+  border-top:solid 1px #87888a;
+  padding-top:8px;
+  width:1000px;
+  overflow:hidden;
+}
+#nr_footer_mini .b .bl,
+#nr_footer_mini .b .bl ul{
+  float:left;
+  display:inline;
+}
+#nr_footer_mini .b .br,
+#nr_footer_mini .b .br ul{
+  float:right;
+  display:inline;
+}
+#nr_footer_mini .b ul.txt_list{
+  overflow:hidden;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-bottom:8px;
+  zoom:1;
+  position:relative;
+  padding-bottom:0;
+  height:18px;
+  display:block;
+}
+#nr_footer_mini .b ul.txt_list li{
+  float:left;
+  display:inline;
+  background-image:url(http://www.haier.com/cn/images/nr_top_divider.gif);
+  background-repeat:no-repeat;
+  background-position:0 center;
+  margin-left:-1px;
+  padding:0 10px;
+  position:relative;
+  font-size:12px;
+}
+#nr_footer_mini .b ul.txt_list li a{
+  float:left;
+  display:inline;
+}
+#nr_footer_mini .b ul.txt_list li a:hover{
+}
+#nr_footer_mini .b ul.txt_list li.change_lang a {
+  padding-left: 22px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  color: #40c8f4;
+}
+#nr_footer_mini .b ul.txt_list li.change_lang a.flag_zhcn {
+	background-image: url(http://www.haier.com/cn/images/nr_flag_zhcn.png);
+}
+
+
+/* nr_p_lang_select */
+#nr_p_lang_select{
+}
+#nr_p_lang_select .title{background:url(http://www.haier.com/cn/images/nr_ser_subheader_bg.png) center top no-repeat; margin-left:-1000px; padding-left:1000px; position:relative; width:2000px;}
+#nr_p_lang_select .title .inner{height:43px; position:relative; width:1000px;}
+#nr_p_lang_select .title .inner h1{background:#f5f5f5 url(http://www.haier.com/cn/images/nr_page_location_bg.png) right center no-repeat; color:#606060; font-size:22px; font-weight:700; float:left; height:43px; line-height:40px; padding:0 250px 0 0;}
+#nr_p_lang_select .lang_group{
+}
+#nr_p_lang_select .lang_group h2{
+  height:60px;
+  padding:0;
+  margin:0;
+  font-size:24px;
+  color:#606060;
+  font-weight:300;
+  line-height:60px;
+  border-bottom:solid 1px #e5e5e5;
+  margin-bottom:20px;
+  position:relative;
+}
+#nr_p_lang_select .lang_group ul{
+  overflow:hidden;
+}
+#nr_p_lang_select .lang_group ul li{
+  width:200px;
+  height:45px;
+  float:left;
+  display:inline;
+  position:relative;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+#nr_p_lang_select .lang_group ul li a{
+  width:100px;
+  height:45px;
+  padding-left:80px;
+  padding-right:20px;
+  line-height:40px;
+  font-size:16px;
+  color:#808080;
+  float:left;
+  display:inline;
+}
+#nr_p_lang_select .lang_group ul li a:hover{
+  color:#005aaa;
+}
+#nr_p_lang_select .lang_group ul li a img{
+  position:absolute;
+  left:0;
+  top:0;
+}
+#nr_p_lang_select .lang_group ul li a.double_line {
+  line-height:19px;
+  padding-top:2px;
+  height:43px;
+}
+
+
+
+/*service footer by tony*/
+#nr_footer.nr_service_footer{margin:0 auto; padding:0 0 10px; width:1000px;}
+#nr_footer .t{display:none; overflow:hidden; padding:25px 0 0; position:relative; width:1000px; zoom:1;}
+#nr_footer.nr_service_footer .b{border:none;}
+#nr_footer.nr_service_footer .b ul.txt_list{margin:0;}
+.nr_footer_toggle{border-bottom:2px solid #32beff; height:24px; position:absolute; top:-26px; width:100%;}
+
+
+body.hy2_noback .nr_fixed_width{
+  width:100%;
+  overflow:hidden;
+  clear:both;
+  padding-top:30px;
+}
+body.hy2_noback #nr_footer_mini{
+  width:100%;
+  overflow:hidden;
+  background-color:#606060;
+  clear:both;
+}
+body.hy2_noback #nr_footer_mini .b{
+  width:1000px;
+  margin:0 auto;
+  float:none;
+  display:block;
+}

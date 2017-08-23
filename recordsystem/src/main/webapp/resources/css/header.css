@@ -1,0 +1,58 @@
+.mynavbar {
+    height: 64px;
+   	background: url("../images/header/background.png");
+	background-repeat: no-repeat;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+	background-size:100% 100%;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.headtitle {
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+}
+
+.principalstyle {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.userinfo {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 991px) {
+    #logoName, #logout {
+        display: none;
+    }
+
+    .mynavbarbox {
+        display: none;
+    }
+}
+
+.disPosition {
+    position: relative;
+    z-index: 10;
+    /* top:85px;
+    left:10px;  */
+}
+
+.disShow {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .disPosition {
+        /* top:64px; */
+        left: 0px;
+    }
+}

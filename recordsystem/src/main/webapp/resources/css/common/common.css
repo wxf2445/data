@@ -1,0 +1,246 @@
+html, body {
+    font-family: '微软雅黑 Bold', '微软雅黑';
+    height: 100%;
+    oveflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: '微软雅黑 Bold', '微软雅黑';
+}
+
+.modal-header {
+    /*background-color: #F4F7F9;*/
+    background-color: #457284;
+}
+
+.modal-header h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.modal-body {
+    /*background-color: #FFFFFF;*/
+    background-color: #F9F1F6;
+}
+
+.modal-footer {
+    /*background-color: #FFFFFF;*/
+    background-color: #F9F1F6;
+}
+
+.warningcolor {
+    margin-left: 5px;
+    color: #D15B47;
+}
+
+.lableW {
+    width: 7em;
+}
+
+.btn-mini {
+    width: 40px;
+    height: 30px;
+    background: #EBF3FF;
+    padding: 2px 2px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.timeActive {
+    background: #37A8EA;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+td > .btn {
+    font-size: 10px;
+}
+
+.mLR3 {
+    margin: 0px 3px;
+}
+
+.ferror {
+    color: #b94a48;
+}
+
+.modal .modal-body .box-content {
+    overflow: auto;
+}
+
+.modal .modal-body .box-content .form-horizontal .form-group {
+    margin: 0px 0px 10px;
+}
+
+.ellipises {
+    padding-top: 9px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.noraiusmenu {
+    min-width: inherit;
+}
+
+.noraiusmenu a {
+    display: block;
+    border-radius: 0px;
+}
+
+.datetip {
+    word-break: break-all;
+}
+
+td.notpass, td.notcreate {
+    color: red;
+    background-color: antiquewhite !important;
+}
+
+.mycheckbox {
+    width: 100px;
+    height: 1.5em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+legend {
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    height: 61px;
+    line-height: 61px;
+}
+
+.linebreak {
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.control-label.textleft {
+    text-align: left;
+    font-weight: bold;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: .5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    /*content: open-quote;*/
+    font-size: 4em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+.switchButton {
+    width: 100px;
+}
+
+.checkbox label {
+    width: 0px;
+}
+
+.noty_bar {
+    height: 64px;
+    line-height: 50px;
+}
+
+.dropdown-menu {
+    z-index: 9999999 !important;
+}
+
+.filewell .onefile {
+    height: 130px;
+}
+
+.filewell .onefile .filename {
+    height: 80px;
+    overflow: hidden;
+}
+
+.infoSearchForm .searchInput {
+    padding-right: 0px;
+}
+
+img.pointerimg {
+    cursor: pointer;
+}
+
+th.newTh {
+    background-color: tan;
+}
+
+td.newTd {
+    background-color: tan !important;
+}
+
+#imgPreview {
+    width: 320px;
+    height: 280px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+}
+
+.notcheckedlabel {
+    color: #fdfbff;
+}
+
+#customModal {
+    position: fixed;
+    top: 200px;
+    z-index: 4000000;
+    left: 500px;
+    width: 850px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    background-clip: padding-box;
+    outline: 0;
+}
+
+.filepreviewarea .row {
+    overflow: scroll;
+}
+
+form .customFormLabel {
+    padding-right: 0;
+}
+
+.linechart {
+    height: 500px;
+}
+.onefile img{
+    float: left;
+}
+.mask{
+    position: relative;
+    z-index: 10000000;
+    width: 100%;
+    opacity: 0.5;
+    height: 2320px;
+    background-color: white;
+    filter: alpha(opacity=30);
+}
+.maskTip{
+    font-size: 50px;
+    color: black;
+}

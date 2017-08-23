@@ -1,0 +1,11 @@
+table.dailysettingtable input {
+    width: 80px;
+}
+
+input:valid {
+    color: black;
+}
+
+input:invalid {
+    color: red;
+}

@@ -1,0 +1,12 @@
+html, body * {
+	font-family: '微软雅黑 Bold', '微软雅黑';
+}
+
+.newbrand {
+	line-height: 10;
+}
+
+
+img{
+max-width: 100%;
+}

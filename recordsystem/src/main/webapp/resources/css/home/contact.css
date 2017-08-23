@@ -1,0 +1,67 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+
+#address{
+	height: 400px;
+}
+.blank{
+    width: 28px;
+    display: inline-block;
+}
+.floater {
+    height:40%; 
+    margin-bottom:-120px;
+}
+.backshadow{
+	display: none;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    filter: alpha(opacity=30);
+    opacity: 0.6;
+    background-color: grey;
+    z-index: 5;
+}
+.frontimage{
+	display:none;
+	height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+	position: fixed;
+    z-index: 6;
+}
+.imagecontent{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    height: 230px;
+}
+.imagecontent>img{
+	border: 1px solid #E2E2E2;
+	float: left;
+}
+.imagecontent>div>h2{
+line-height: 75px;
+}
+.wx_gz{
+	cursor: pointer;
+}
+.wx_help{
+	cursor: pointer;
+}
+.contactarea {
+	padding: 10px 0 10px 0;
+background: #F4F4C6 url("https://dn-duoxieyunweb.qbox.me/img/index/div-grey-top.png") no-repeat center top;
+/* background-image: url("../../img/home/banner1.jpg"); */ 
+}
+
+.wx img+span{
+	display: block;
+}

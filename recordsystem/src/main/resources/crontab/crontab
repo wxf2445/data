@@ -1,0 +1,17 @@
+# Tasks planification configuration file.
+# IMPORTANT: All the index begin in 0, except day of month and
+
+#       month that begin in 1.
+
+#              minute         0-59
+#              hour           0-23
+#              day of month   1-31
+#              month          1-12
+#              day of week    0-6 (0 is Sunday)
+
+
+#每两分钟执行一次 CrontabMainTest1的 main方法
+ */2 * * * * com.kang.timerandcron.cron.process.CrontabMainTest#main Hello World
+
+#每一分钟执行一次 CrontabRunTest1的 run方法，并传入参数Hello World
+ * * * * * com.kang.timerandcron.cron.process.CrontabRunTest#run Hello World

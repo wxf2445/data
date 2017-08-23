@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- <setting name="lazyLoadingEnabled" value="true" />
+        <setting name="aggressiveLazyLoading" value="false" /> -->
+        <setting name="safeResultHandlerEnabled" value="false"/>
+        <setting name="logImpl" value="LOG4J"/>
+        <!-- <setting name="cacheEnabled" value="true" /> -->
+    </settings>
+    <typeAliases>
+        <typeAlias alias="Authority" type="cn.com.jtang.po.Authority"/>
+        <typeAlias alias="Role" type="cn.com.jtang.po.Role"/>
+        <typeAlias alias="RoleAuthority" type="cn.com.jtang.po.RoleAuthorityKey"/>
+        <typeAlias alias="User" type="cn.com.jtang.po.User"/>
+        <typeAlias alias="Rule" type="cn.com.jtang.po.Rule"/>
+        <typeAlias alias="StationMail" type="cn.com.jtang.po.StationMail"/>
+          <typeAlias alias="Server" type="cn.com.jtang.po.Server"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="cn/com/jtang/dao/AuthorityMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/RoleMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/RoleAuthorityMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/UserMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/RuleMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/custom/RecordViewMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/StationMailMapper.xml"/>
+        <mapper resource="cn/com/jtang/dao/ServerMapper.xml"/>
+    </mappers>
+</configuration>

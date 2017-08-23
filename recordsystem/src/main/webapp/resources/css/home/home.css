@@ -1,0 +1,78 @@
+html, body * {
+	font-family: '微软雅黑 Bold', '微软雅黑';
+}
+
+.newbrand {
+/* 	line-height: 10; */
+ padding-right:0px;
+ /*text-align: center;*/
+}
+
+
+
+.productfunctionpic {
+	/*width: 33%;
+	float: left;*/
+}
+
+.productfunctioninfo {
+	/*width: 66%;
+	float: left;*/
+	padding-left: 70px;
+    padding-right: 70px;
+}
+.home-bottom{
+	color: #8d8d8d;
+}
+.solution {
+	height: 150px;
+}
+
+.solutiontitle {
+	color: black;
+}
+
+.solutioninfo {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.sliderphoto {
+	width: 100%;
+	height: 500px !important;
+}
+.allsolutiontitle{
+	margin-top: 80px;
+	margin-bottom: 0px;
+	padding-bottom:10px;
+    border-bottom: 4px solid #00B9F9;
+    width: 15%;
+}
+.allfunctiontitle{
+	margin-top: 80px;
+	margin-bottom: 0px;
+	padding-bottom:10px;
+    border-bottom: 4px solid #00B9F9;
+    width: 15%;
+}
+.top-hr{
+	margin-top: -2px;
+    float: right;
+    width:85%;
+}
+.functionrow{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.home-title{
+	color:#355f99;
+}
+.solution-padding{
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:10px;
+}
+.hr-big{
+	border-top:2px solid #eee;
+}

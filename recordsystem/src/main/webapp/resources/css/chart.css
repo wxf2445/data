@@ -1,0 +1,80 @@
+.chartbody {
+	padding: 0;
+}
+
+h3 {
+	margin: 0;
+}
+
+.latestdata {
+	margin: 0;
+	float: left !important;
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+}
+
+.slider {
+	margin-left: 15px;
+}
+
+.myh2{
+	margin-top:10px;
+	color: #39A8E8;
+}
+
+.staticvalue {
+	margin-top: 20px;
+}
+
+.timetrackshow>.timelist>p>span {
+	display: inline-block;
+	font-size: 18px;
+}
+
+.timetrackshow>.timelist>p>.mileage {
+	width: 25%;
+}
+
+.loadingarea {
+	height: 200px;
+	background-color: #f5f5f5;
+	position: relative;
+}
+.timetrackshow{
+	display: none;
+}
+.loadshow{
+	display: none;
+}
+
+.loading {
+	position: absolute;
+	top: 30%;
+	left: 45%;
+}
+
+.la-ball-spin-clockwise-fade > div:nth-child(1) {
+    color: #f4696b;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(2) {
+    color: #87c4a3;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(3) {
+    color: #fec54f;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(4) {
+    color: #f4696b;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(5) {
+    color: #87c4a3;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(6) {
+    color: #fec54f;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(7) {
+    color: #f4696b;
+}
+.la-ball-spin-clockwise-fade > div:nth-child(8) {
+    color: #87c4a3;
+}

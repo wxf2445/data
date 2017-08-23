@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+    <properties resource="generatorConfig.properties"/>
+    <!-- 设置mysql驱动路径 -->
+    <classPathEntry
+            location="E:/zhm/maven/repository/mysql/mysql-connector-java/5.1.33/mysql-connector-java-5.1.33.jar"/>
+    <!-- 此处指定生成针对MyBatis3的DAO -->
+    <context id="context" targetRuntime="MyBatis3">
+        <plugin type="cn.com.jtang.mybatis.plugin.PaginationPlugin"/>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <!-- jdbc连接信息 -->
+        <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+            connectionURL="jdbc:mysql://localhost:3306/recordsystem" userId="root"
+            password="root" />-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/recordms_wang" userId="root"
+                        password="root"/>
+        <!-- eclipse 生成po对象 -->
+        <!--<javaModelGenerator targetPackage="cn.com.jtang.po"
+            targetProject="recordsystem/src/main/java" />-->
+        <!-- idea 生成对象 -->
+        <javaModelGenerator targetPackage="cn.com.jtang.po"
+                            targetProject="E:/zhm/IdeaProjects/recordsystem/src/main/java"/>
+        <!-- eclipse 生成用于查询的Example对象 -->
+        <!--<sqlMapGenerator targetPackage="cn.com.jtang.dao"
+            targetProject="recordsystem/src/main/resources" />-->
+        <!-- idea 生成用于查询的Example对象 -->
+        <sqlMapGenerator targetPackage="cn.com.jtang.dao"
+                         targetProject="E:/zhm/IdeaProjects/recordsystem/src/main/resources"/>
+
+        <!-- eclipse 生成DAO的类文件以及配置文件 -->
+        <!--<javaClientGenerator targetPackage="cn.com.jtang.dao"
+            targetProject="recordsystem/src/main/java" type="XMLMAPPER" />-->
+        <!-- idea 生成DAO的类文件以及配置文件 -->
+        <javaClientGenerator targetPackage="cn.com.jtang.dao"
+                             targetProject="E:/zhm/IdeaProjects/recordsystem/src/main/java" type="XMLMAPPER"/>
+
+        <!-- 想要生成的数据库表,自动化工具会根据该表的结构生成相应的po对象 -->
+
+        <!--old-->
+        <!--<table tableName="user" domainObjectName="User"/>
+        <table tableName="role" domainObjectName="Role"/>
+        <table tableName="authority" domainObjectName="Authority"/>
+        <table tableName="roleauthority" domainObjectName="RoleAuthority"/>-->
+        <!--<table tableName="record" domainObjectName="Record"/>
+        <table tableName="record_volume" domainObjectName="RecordVolumeView"/>
+        <table tableName="department" domainObjectName="Department"/>
+        <table tableName="deadline" domainObjectName="Deadline"/>
+        <table tableName="year" domainObjectName="Year"/>
+        <table tableName="info" domainObjectName="Info"/>
+        <table tableName="recordtype" domainObjectName="RecordType"/>
+        <table tableName="document" domainObjectName="Document"/>
+        <table tableName="fonds" domainObjectName="FondsView"/>-->
+        <!--<table tableName="recordtype" domainObjectName="RecordType"/>
+        <table tableName="recordcategory" domainObjectName="RecordCategory"/>-->
+        <!--<table tableName="year" domainObjectName="Year"/>
+        <table tableName="deadline" domainObjectName="Deadline"/>
+        <table tableName="department" domainObjectName="Department"/>-->
+        <!--<table tableName="template" domainObjectName="Template"/>
+        <table tableName="recordtype" domainObjectName="RecordType"/>-->
+
+        <!--<table tableName="category" domainObjectName="Category"/>
+        <table tableName="fonds" domainObjectName="FondsView"/>
+        <table tableName="recordtype" domainObjectName="RecordType"/>
+        <table tableName="rule" domainObjectName="Rule"/>
+        <table tableName="template" domainObjectName="Template"/>
+        <table tableName="f1_w1_record" domainObjectName="Common"/>
+
+        <table tableName="f1_w1_document" domainObjectName="Document"/>-->
+        <!--<table tableName="f1_w1_record" domainObjectName="Record"/>
+        <table tableName="f1_w1_volume" domainObjectName="RecordVolume"/>-->
+        <!--<table tableName="categorycontent" domainObjectName="CategoryContent"/>-->
+        <!-- <table tableName="pending" domainObjectName="Pending"/>
+        <table tableName="rule" domainObjectName="Rule"/>-->
+        <!--<table tableName="f1_k1_record" domainObjectName="Record"/>
+        <table tableName="outputorder" domainObjectName="OutputOrder"/>-->
+        <!--<table tableName="authority" domainObjectName="Authority"/>
+        <table tableName="authgroup" domainObjectName="AuthGroup"/>
+        <table tableName="outputorder" domainObjectName="OutputOrder"/>-->
+        <!--<table tableName="description" domainObjectName="AddIndex"/>
+        <table tableName="indextable" domainObjectName="IndexTable"/>-->
+        <!--<table tableName="outputorder" domainObjectName="OutputOrder"/>-->
+        <!--  <table tableName="accesscontrol" domainObjectName="AccessControl"/> -->
+        <!--<table tableName="user" domainObjectName="User"/>
+        <table tableName="usergroupauth" domainObjectName="UserGroupAuth"/>-->
+        <!--<table tableName="role" domainObjectName="Role">
+            <generatedKey column="roleId" sqlStatement="Mysql"/>
+                </table>
+        <table tableName="user" domainObjectName="User" >
+            <generatedKey column="roleId" sqlStatement="Mysql" />
+                </table>
+        <table tableName="roleauthority" domainObjectName="RoleAuthority">
+            <generatedKey column="roleId" sqlStatement="Mysql"/>
+                </table>-->
+        <!--<table tableName="year" domainObjectName="Year">
+            <generatedKey column="id" sqlStatement="Mysql"/>
+        </table>
+        <table tableName="deadline" domainObjectName="Deadline">
+            <generatedKey column="id" sqlStatement="Mysql"/>
+        </table>
+        <table tableName="department" domainObjectName="Department">
+            <generatedKey column="id" sqlStatement="Mysql"/>
+        </table>-->
+        <!--  <table tableName="station_mail" domainObjectName="StationMail" /> -->
+        <!--<table tableName="server" domainObjectName="Server" />-->
+        <!--<table tableName="station_mail" domainObjectName="StationMail" />-->
+        <!--<table tableName="dailyback" domainObjectName="DailyBack"/>-->
+        <!--<table tableName="fullback" domainObjectName="FullBack"/>-->
+        <!--<table tableName="backupsave" domainObjectName="BackupSave">
+            &lt;!&ndash;<generatedKey column="id" sqlStatement="Mysql"/>&ndash;&gt;
+        </table>-->
+        <table tableName="defaultexport" domainObjectName="DefaultExport"/>
+    </context>
+</generatorConfiguration>

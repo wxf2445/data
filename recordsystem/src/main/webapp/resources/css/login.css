@@ -1,0 +1,13 @@
+.loginarea {
+	padding: 10px 0 10px 0;
+	background: #F4F4C6
+		url("https://dn-duoxieyunweb.qbox.me/img/index/div-grey-top.png")
+		no-repeat center top;
+}
+.loginpanel{
+	background: url("../../images/loginback.jpg");
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+-moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+}  
+}

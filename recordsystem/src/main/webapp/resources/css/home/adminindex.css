@@ -1,0 +1,121 @@
+.box-header h2 *{
+  		margin-right:8px;
+  	}
+  	@-webkit-keyframes buzz-out {
+  	50% {
+          -webkit-transform: translateX(0px) rotate(0deg);
+        }
+        75% {
+          -webkit-transform: translateX(3px) rotate(2deg);
+        }
+        100% {
+          -webkit-transform: translateX(0px) rotate(0deg);
+        }
+}
+@-moz-keyframes buzz-out {
+50% {
+          -moz-transform: translateX(0px) rotate(0deg);
+        }
+        75% {
+          -moz-transform: translateX(3px) rotate(2deg);
+        }
+        100% {
+          -moz-transform: translateX(0px) rotate(0deg);
+        }
+}
+@-o-keyframes buzz-out {
+50% {
+          -o-transform: translateX(0px) rotate(0deg);
+        }
+        75% {
+          -o-transform: translateX(3px) rotate(2deg);
+        }
+        100% {
+          -o-transform: translateX(0px) rotate(0deg);
+        }
+}
+@-ms-keyframes buzz-out {
+        50% {
+          -ms-transform: translateX(0px) rotate(0deg);
+        }
+        75% {
+          -ms-transform: translateX(3px) rotate(2deg);
+        }
+        100% {
+          -ms-transform: translateX(0px) rotate(0deg);
+        }
+}
+.infoShake{
+	 animation-name: buzz-out;
+        	animation-duration: 0.2s;
+          animation-timing-function: linear;
+       	animation-iteration-count: infinite;
+ 	 -webkit-animation-name: buzz-out;
+          -webkit-animation-duration: 0.2s;
+          -webkit-animation-timing-function: linear;
+          -webkit-animation-iteration-count: infinite;
+           -moz-animation-name: buzz-out;
+          -moz-animation-duration: 0.2s;
+          -moz-animation-timing-function: linear;
+          -moz-animation-iteration-count: infinite;
+           -o-animation-name: buzz-out;
+          -o-animation-duration: 0.2s;
+          -o-animation-timing-function: linear;
+          -o-animation-iteration-count: infinite;
+           -ms-animation-name: buzz-out;
+          -ms-animation-duration: 0.2s;
+          -ms-animation-timing-function: linear;
+          -ms-animation-iteration-count: infinite;
+          color:#B58C15;
+}
+.glyphicon-exclamation-sign{
+	color:#B58C15;
+}
+.infonum{
+color:#B58C15;
+margin-left:-8px;
+}
+.scroll_bar{
+	height:280px;
+	padding:80px 0px 50px;
+	background-image: url("../../images/stationBg.png");
+	background-repeat: no-repeat;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+	background-size:100% 100%;
+
+}
+.scrollIcon{
+	 height: 36px;
+	line-height: 36px;
+}
+.scrollBox{
+	width:83.2%;
+	padding:0px;
+	margin:0px auto;
+	height:150px;
+	overflow:hidden;
+}
+.scrollBox1,.scrollBox2{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.scrollBox ul{
+margin:0px;
+padding:0px;
+}
+	 .scrollBox  ul li{
+	list-style: none;
+	padding:0px 0px 6px;
+	overflow: hidden;
+	 text-overflow: ellipsis;
+	 white-space: nowrap;
+    	color:#7b4848;
+}
+.scrollBox li a{
+	 color:#7b4848; 
+}
+.scrollBox li a:hover{
+	 color:#df2b0b; 
+}

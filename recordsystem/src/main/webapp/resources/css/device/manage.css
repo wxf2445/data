@@ -1,0 +1,19 @@
+.mymodal {
+	width: 800px;
+}
+
+.errorstyle {
+	display: inline-block;
+}
+
+button.changemode {
+	margin-top: -0.4em;
+}
+
+.mystatic {
+	padding-top:0px;
+
+}
+/* a.warnconfig:hover {
+	color:red !important;
+} */

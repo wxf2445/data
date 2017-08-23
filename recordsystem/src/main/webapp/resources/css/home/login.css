@@ -1,0 +1,81 @@
+.loginarea {
+    padding: 10px 0 10px 0;
+    background: #F4F4C6 url("https://dn-duoxieyunweb.qbox.me/img/index/div-grey-top.png") no-repeat center top;
+}
+
+.loginpanel {
+    /*background: url("../../images/loginback.jpg");*/
+    /*background: url("../../images/cold-chain01.jpg");*/
+    background: url("../../images/login/background.jpg");
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.entrance {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 165px;
+}
+
+.entrance > .li1 {
+    width: 170px;
+    height: 50px;
+}
+
+.entrance > .li2 {
+    width: 100% !important;
+    height: 50px;
+}
+
+.sensor-tabs {
+    margin: 0;
+    width: 70%;
+}
+
+.loginForm {
+
+}
+
+.logintabs {
+    margin-left: 0;
+    border-bottom: none;
+}
+
+.rightentrance {
+    margin-left: 10px;
+}
+
+.logincontainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.loginsubmit {
+    margin-bottom: 0px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #E3D7E7;
+}
+
+.nav-tabs > li > a {
+    background-color: #0cc8f5;
+}
+
+.active > a > span > h5 {
+    color: #0cc8f5 !important;
+}
+
+.entrance > a > span > h5 {
+    font-size: 17px;
+    color: white;
+}
+
+.entrance {
+    margin-bottom: 0px !important;
+}
+
+span.glyphicon.glyphicon-remove.form-control-feedback {
+    top: initial;
+}

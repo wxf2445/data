@@ -1,0 +1,17 @@
+.registervalidate {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#validateCodeImg {
+	height: 38px;
+}
+.input-group{
+	width:100%;
+}
+.registervalidate{
+    padding-left: 20px;
+}
+.registererror{
+	display: none;
+}

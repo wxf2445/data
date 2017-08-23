@@ -1,0 +1,34 @@
+.more{
+	 background: url(../../img/more.png)
+}
+.left-img{
+	height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
+.top-left-img{
+	height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+.top-right-img{
+	height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+.top-max-height{
+	max-height: 130px;
+}
+.buttom-right-img{
+	height: 230px;
+    line-height: 230px;
+    text-align: center;
+}  
+
+.a-margin-top{
+	margin-top:5px!important;
+}
+
+.left-td{
+	width:20%;
+}

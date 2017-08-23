@@ -1,0 +1,736 @@
+html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: '微软雅黑 Bold', '微软雅黑' !important;
+}
+
+.mynavbar {
+    margin-bottom: 0 !important;
+    background-color: white !important;
+    line-height: 90px;
+}
+
+.manageshowchart {
+    color: white;
+}
+
+.mymenu {
+    margin-right: 10px !important;
+    padding: 0 !important;
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+}
+
+.log-message {
+    color: rgb(0, 185, 249);
+    font-size: 21px;
+}
+
+.log-message-div {
+    margin-left: -15px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#form-errors {
+    color: red;
+    font-size: 18px;
+}
+
+.warnconfigbutton {
+    color: white;
+}
+
+.sensorwarning {
+    color: red !important;
+}
+
+.login-box {
+    margin: 0px;
+    background: rgb(227, 215, 231);
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.input-group-btn > .btn > i {
+    margin-top: 5px;
+}
+
+.activatesucess {
+    font-family: '微软雅黑 Bold', '微软雅黑';
+}
+
+.validatebutton {
+    float: left;
+}
+
+.nodeivcetip {
+    font-size: 35px;
+    line-height: 100px;
+}
+
+.warningbox {
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.port-text {
+    background-color: #2fa4e7;
+}
+
+.chartshow {
+    height: 580px;
+}
+
+.right {
+    text-align: right;
+}
+
+.chartshow > .charttab {
+    float: left;
+    width: 100%;
+}
+
+.chartshwo > .sidebox {
+
+}
+
+.chartarea {
+    height: 400px;
+}
+
+/* tr.cannotdelete>td{
+	background-color: green !important;
+} */
+.panel-primary > .normal, .panel-primary > .warning {
+    height: 80px;
+}
+
+.panel-primary > .normal {
+    background-color: blue;
+}
+
+.panel-primary > .warning {
+    background-color: red;
+}
+
+.industry {
+    float: left;
+}
+
+.port-sensor {
+    background-color: #f5f5f5;
+}
+
+.devicedescription {
+    text-align: left;
+}
+
+.port-caption {
+    display: none;
+}
+
+#playbacksearch {
+    display: none;
+}
+
+.sensor-tabs {
+    background-color: gainsboro;
+}
+
+.loginimgdiv {
+    padding: 0px;
+}
+
+.loginimgdiv > img {
+    width: 100%;
+    height: 430px;
+}
+
+li.disable {
+    background-color: #000040;
+}
+
+li.disable:hover {
+    margin: 0 !important;
+    background-color: #000000 !important;
+}
+
+.yun {
+    color: #54B4EB;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#temprature {
+
+}
+
+span.reload {
+    color: rgb(249, 255, 0);
+}
+
+span.warning {
+    color: red;
+}
+
+div#changetomap {
+    font-size: 12px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+}
+
+td.devicenosensor {
+    color: red;
+}
+
+.warning_footer {
+    padding: 0px;
+}
+
+.congratuation {
+    height: 72px;
+    text-align: left;
+    line-height: 72px;
+    vertical-align: middle;
+    font-size: 30px;
+    position: relative;
+}
+
+.waringtable {
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+.waringtable td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+}
+
+div.login-absolute {
+    position: absolute;
+    z-index: 2;
+}
+
+.test {
+    margin-top: 35px;
+}
+
+.navbar-brand {
+    width: auto;
+}
+
+.navbar-brand img.logo-sluan {
+    width: auto;
+}
+
+.dropdown-menu-w120 {
+    min-width: 120px;
+}
+
+/********  Login Form Start  ********/
+.has-feedback .input-group-lg .form-control-feedback {
+    top: 7px;
+}
+
+.form-group .input-group-lg .img-validate-code {
+    height: 45px;
+    width: 100px;
+}
+
+.form-group .validate-code {
+    text-align: left;
+}
+
+.form-group .forget-password {
+    margin: 0 20px;
+}
+
+/********  Login Form End  ********/
+
+/********  Register Form Start  ********/
+.form-group .alert-needs {
+    margin-bottom: 0px;
+    padding: 12px;
+    text-align: left;
+}
+
+/********  Register Form End  ********/
+
+/********  Password Form Start  ********/
+.form-group .restrict-label {
+    margin: 4px 0;
+    text-align: left;
+}
+
+/********  Register Form End  ********/
+
+/********  Table Start  ********/
+.table {
+    margin-bottom: 0px;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_length {
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_length > label > select {
+    font-size: 100%;
+    padding: 3px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    white-space: nowrap;
+}
+
+.table-content {
+    overflow: auto;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.dataTables_wrapper .pagination {
+    margin: 10px 0;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.w45 {
+    width: 45px;
+}
+
+.w90 {
+    width: 90px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w270 {
+    width: 270px;
+}
+
+.light-green {
+    color: #0F0;
+}
+
+.center {
+    text-align: center;
+}
+
+label.error {
+    background: url("../img/unchecked.gif") no-repeat 0px center;
+    padding-left: 16px;
+    color: red;
+}
+
+label.valid {
+    display: inline;
+    background: url("../img/checked.gif") no-repeat 0px center;
+    padding-left: 16px;
+    color: blue;
+}
+
+.input-daterange .input-group-addon {
+    width: auto;
+    min-width: 16px;
+    padding: 6px 12px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    vertical-align: middle;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    border-width: 1px 0;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.input-daterange input {
+    text-align: left;
+}
+
+.input-daterange .input-group-addon:last-child {
+    border-width: 1px;
+    border-left: 0;
+}
+
+table.table thead .sorting_asc, table.table thead .sorting_desc, table.table thead .sorting {
+    cursor: pointer;
+    *cursor: hand;
+}
+
+table.table thead .sorting {
+    background: url("../img/table/sort_both.png") no-repeat center right;
+}
+
+table.table thead .sorting_asc {
+    background: url("../img/table/sort_asc.png") no-repeat center right;
+}
+
+table.table thead .sorting_desc {
+    background: url("../img/table/sort_desc.png") no-repeat center right;
+}
+
+table.table thead .sorting_asc_disabled {
+    background: url("../img/table/sort_asc_disabled.png") no-repeat centerright;
+}
+
+table.table thead .sorting_desc_disabled {
+    background: url("../img/table/sort_desc_disabled.png") no-repeat centerright;
+}
+
+.navbar-form.navbar-left:first-child {
+    margin-left: -15px;
+}
+
+.navbar-inner {
+    height: 100%;
+    padding: 0px;
+    min-height: 60px;
+    height: 60px;
+}
+
+.menu-hidden {
+    display: none;
+}
+
+.menu-show {
+    display: block !important;
+}
+
+.re-header {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+form#companyRegisterForm {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.blue-bar {
+    border-bottom: 1px solid #00B9F9;
+}
+
+.blue-hr {
+    border-color: #00B9F9;
+}
+
+.warnconfig {
+    padding: 0px;
+}
+
+.my-allocateuser {
+    padding-right: 0px;
+    padding-left: 3%;
+}
+
+.manageshowchart {
+    padding: 0px;
+}
+
+.my-well {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+}
+.error-text {
+    color: red;
+}
+
+.register-well {
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.black-font {
+    font-size: 16px !important;
+    font-weight: 700;
+    color: #000000 !important;
+}
+
+.small-blue-font {
+    font-size: 14px !important;
+    color: #00B9F9 !important;
+    font-weight: 700;
+}
+
+.paddings {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    float: right;
+}
+
+.warningarea {
+    padding: 0;
+}
+
+.mymanage-well {
+    padding: 0px 10px;
+}
+
+.mytags {
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: #2988BE;
+    cursor: pointer;
+}
+
+.mytags:hover {
+    background-color: #2FA4E7;
+}
+
+.targetided {
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: #2FA4E7;
+}
+
+.removetag {
+    cursor: pointer;
+}
+
+.removetag:hover {
+    color: red;
+}
+
+.toaddtag {
+    padding: 5px 50px;
+    border: 1px dashed #CCCCCC;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
+.manage-tag {
+    position: absolute;
+    border-radius: 15px;
+    top: -5px;
+    left: -5px;
+    font-size: 70%;
+}
+
+.usercontrol {
+    height: 60px;
+    line-height: 30px;
+    color: #FFF;
+    text-decoration: none;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+.nav-user-photo {
+    margin: -4px 8px 0 0;
+    border-radius: 100%;
+    border: 2px solid #FFF;
+    max-width: 50px;
+}
+
+.menu-right {
+    background: #62a8d1;
+    margin: 0px !important;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.menu-right:hover {
+    background: #579ec8;
+
+}
+
+.menu-right.open {
+    background: #579ec8;
+}
+
+.usercontrol:hover {
+    color: #fff;
+    border: 0px;
+    text-decoration: none;
+}
+
+.usercontrol:focus {
+    color: #fff;
+    border: 0px;
+    text-decoration: none;
+}
+
+.dropdown-menu-usermenu > li {
+    min-width: 200px;
+}
+
+.dropdown-menu:after {
+    border-bottom: 6px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    right: 10px;
+    position: absolute;
+    top: -6px;
+}
+
+.datagrid-mask {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    display: none;
+    z-index: 1000;
+}
+
+.datagrid-mask-msg {
+    background: url('image/loading.gif') #ffffff no-repeat scroll 5px center;
+}
+
+.datagrid-mask-msg {
+    position: fixed;
+    top: 50%;
+    margin-top: -20px;
+    padding: 12px 5px 10px 30px;
+    width: auto;
+    height: 45px;
+    border-width: 2px;
+    border-style: solid;
+    display: none;
+    z-index: 1000;
+    color: #000;
+}
+
+.datagrid-mask {
+    background: #ccc;
+}
+
+.datagrid-mask-msg {
+    border-color: #D4D4D4;
+}
+
+.state-overview {
+    color: #fff;
+}
+
+.state-overview .overview-blue {
+    background: #5ab6df;
+    box-shadow: 0 5px 0 #51a3c8;
+}
+
+.state-overview .symbol, .state-overview .state-value {
+    display: inline-block;
+}
+
+.state-overview .symbol {
+    width: 35%;
+}
+
+.state-overview .symbol i {
+    font-size: 40px;
+}
+
+.state-overview .panel {
+    padding: 35px 20px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+}
+
+.title > span {
+    padding-right: 6px;
+}
+
+.lightermodal {
+    z-index: 1100;
+}
+
+.myfieldset {
+    padding-bottom: 15px;
+}
+
+.closest-from-group {
+    margin-bottom: 10px;
+}
+
+.warning-text {
+    color: #b94a48;
+    font-weight: bold;
+}
+
+.no-align {
+    text-align: left !important;
+}
+
+.prompt-img {
+    padding: 5px;
+}
+
+.prompt-text {
+    color: gray;
+}
+
+.help-icon {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.help-question {
+    color: red;
+}
+
+.help-answer {
+    color: gray;
+    padding: 5px;
+}
+
+.imgact {
+    margin-left: 5px;
+}
+
+img#qiniuimg {
+    max-height: 50px;
+}
+
+.mid-padding {
+    padding: 0px 15px;
+}
+
+.img-round {
+    border-radius: 100%;
+    border: 2px solid #FFF;
+}

@@ -1,0 +1,6 @@
+code:
+100(failure)
+101(user not checked by superadmin)
+102(user check denied by superadmin)
+103(user hospital not accessed in web)
+104(user hospital not passed in web)

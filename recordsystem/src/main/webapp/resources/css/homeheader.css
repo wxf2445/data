@@ -1,0 +1,148 @@
+.menu li > ul {
+    border-top: 2px solid #f34343;
+}
+
+ul.unstyled, ol.unstyled {
+    margin-left: 0;
+    list-style: none;
+    margin: 0 0 9px 25px;
+}
+
+.myhomeul li {
+    line-height: 18px;
+}
+/*Menu*/
+.menu {
+  padding: 50px 0;
+  /* background: #000000; */
+}
+.menu li {
+  position: relative;
+  margin: 0 5px;
+}
+.active>a.header-a,a.header-a:hover,a.header-a:focus
+{
+	background-color: #FFFFFF !important;
+    color: #00B9F9 !important;
+    border-bottom: 5px solid #00B9F9;
+}
+.mymenu{
+	height:55px !important;
+}
+.menu li a {
+  /*border-radius: 4px;*/
+  color: #6c6c6c;
+  padding-bottom: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+.menu li a:hover {
+  background: none;
+  text-decoration: none;
+}
+.menu li a:hover ~ ul {
+  display: block;
+}
+.menu li > ul {
+	border-radius: 4px;
+    position: absolute;
+    left: 0px;
+    display: none;
+    background: rgb(237, 237, 237);
+    width: 163px;
+    text-align: left !important;
+    margin-left: 5px;
+    padding: 13px 0;
+    padding-left: 15px;
+    border-top: 0px;
+    z-index: 1000;
+}
+.menu li a:hover {
+  color: #00B9F9;
+}
+.menu li > ul > li {
+  /*border-bottom: 1px solid #1f1f1f;*/
+  /*padding-left:15px;*/
+  border-bottom :0px;
+  margin: 0;
+}
+.menu li > ul > li a {
+  padding: 5px 0;
+  display: block;
+  text-transform: none;
+  font-size: 13px;
+}
+.menu li > ul > li:last-child {
+  border: none;
+}
+.menu li > ul:hover {
+  display: block;
+}
+.menu li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+.menu li:nth-child(4) > ul {
+  left: -35px;
+}
+.myhearder-button{
+	height:34px !important;
+	line-height:34px !important;
+}
+.border-blue{
+	border: 1px solid #00B9F9 !important;
+}
+.nav-btu{
+	background-color:#00B9F9 !important;
+	color: white !important;
+}
+.homeheader-padl{
+	padding-left:30px !important;
+}
+.homeheader-padr{
+	padding-right:30px !important;
+}
+.home-input{
+	height:34px;
+	line-height:18px;
+}
+.developer-backshadow{
+	display: none;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    filter: alpha(opacity=30);
+    opacity: 0.6;
+    background-color: grey;
+    z-index: 5;
+}
+.developer{
+	    display: none;
+	    height: 100%;
+	    width: 100%;
+	    top: 0px;
+	    left: 0px;
+	    position: fixed;
+	    z-index: 6;
+}
+.developer-floater{
+	height:40%; 
+    margin-bottom:-120px;
+}
+.developer-content{
+	 width: 800px;
+    margin: auto;
+    background-color: white;
+    height: 230px;
+}
+.developer-message{
+	padding-top: 100px;
+    color: #00B9F9;
+}

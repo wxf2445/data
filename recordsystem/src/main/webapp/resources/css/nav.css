@@ -1,0 +1,45 @@
+.arrow {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    z-index: 1227;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 10px solid #FFFFFF;
+}
+
+.nav-canvas ul > .actives > .arrow {
+    display: block;
+}
+
+.nav-canvas > ul {
+    padding-top: 20px;
+    width: 170px;
+}
+
+.nav-canvas ul li {
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.nav-canvas ul li a {
+    color: #FFFFF0;
+    text-decoration: none;
+}
+
+.nav-canvas ul li a:hover {
+    color: #157ab5;
+}
+
+.nav-canvas ul li.actives a:hover {
+    color: #3879D9;
+}
+
+.nav-canvas ul li a img {
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}

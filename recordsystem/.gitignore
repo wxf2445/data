@@ -1,0 +1,4 @@
+/target/
+/src/main/resources/jdbc.properties
+.externalToolBuilders/org.eclipse.wst.jsdt.core.javascriptValidator.launch
+/.idea/

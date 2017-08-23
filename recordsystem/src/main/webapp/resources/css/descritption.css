@@ -1,0 +1,71 @@
+.chartbody{
+	padding:0;
+}
+h3{
+	    margin: 0;
+}
+.latestdata {
+	margin:0;
+	float: left !important;
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+}
+.slider{
+	margin-left: 15px;
+}
+
+.myh4{
+	font-size:17px;
+	margin-bottom: 30px;
+	margin-top:25px;
+}
+
+.margin-left-10{
+	margin-left:10%;
+}
+
+.name {
+    height: 20px;
+    line-height: 34px;
+    font-size: 15px;
+    color: #6A8BD3;
+    font-weight: 500;
+}
+
+.value{
+	height: 20px;
+    line-height: 34px;
+    font-size: 15px;
+}
+
+.blue{
+	color:#32BEFF;
+}
+
+table tr td p{
+	margin-left:15px;
+	font-size:14px;
+}
+
+table tbody tr td{
+	line-height:47px!important;
+}
+
+table thead tr th{
+	line-height:47px!important;
+}
+.table-style{
+	margin-top:15px;
+	width:100%;
+}
+
+table thead tr th{
+	border-left: aliceblue!important;
+} 
+
+.btn-color{
+	background-color: #32BEFF;
+	color:white;
+	width: 70px;
+}
